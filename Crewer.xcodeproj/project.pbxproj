@@ -28,6 +28,7 @@
 		E7B9E1EB2486881700A18B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7B9E1F1248689A300A18B39 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		E7B9E1F52486912A00A18B39 /* Crewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crewer.swift; sourceTree = "<group>"; };
+		E7B9E1F724869DE000A18B39 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		E7B9E1D12486881600A18B39 = {
 			isa = PBXGroup;
 			children = (
+				E7B9E1F724869DE000A18B39 /* README.md */,
 				E7B9E1DC2486881600A18B39 /* Crewer */,
 				E7B9E1DB2486881600A18B39 /* Products */,
 			);
