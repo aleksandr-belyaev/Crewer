@@ -13,7 +13,8 @@
 		E7B9E1E52486881600A18B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B9E1E32486881600A18B39 /* Main.storyboard */; };
 		E7B9E1E72486881700A18B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B9E1E62486881700A18B39 /* Assets.xcassets */; };
 		E7B9E1EA2486881700A18B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B9E1E82486881700A18B39 /* LaunchScreen.storyboard */; };
-		E7B9E1F2248689A300A18B39 /* Crew.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B9E1F1248689A300A18B39 /* Crew.swift */; };
+		E7B9E1F2248689A300A18B39 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B9E1F1248689A300A18B39 /* Player.swift */; };
+		E7B9E1F62486912B00A18B39 /* Crewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B9E1F52486912A00A18B39 /* Crewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		E7B9E1E62486881700A18B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B9E1E92486881700A18B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7B9E1EB2486881700A18B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7B9E1F1248689A300A18B39 /* Crew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crew.swift; sourceTree = "<group>"; };
+		E7B9E1F1248689A300A18B39 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E7B9E1F52486912A00A18B39 /* Crewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 				E7B9E1DD2486881600A18B39 /* AppDelegate.swift */,
 				E7B9E1DF2486881600A18B39 /* SceneDelegate.swift */,
 				E7B9E1E12486881600A18B39 /* ViewController.swift */,
+				E7B9E1F52486912A00A18B39 /* Crewer.swift */,
 				E7B9E1E32486881600A18B39 /* Main.storyboard */,
 				E7B9E1E62486881700A18B39 /* Assets.xcassets */,
 				E7B9E1E82486881700A18B39 /* LaunchScreen.storyboard */,
 				E7B9E1EB2486881700A18B39 /* Info.plist */,
-				E7B9E1F1248689A300A18B39 /* Crew.swift */,
+				E7B9E1F1248689A300A18B39 /* Player.swift */,
 			);
 			path = Crewer;
 			sourceTree = "<group>";
@@ -142,8 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B9E1E22486881600A18B39 /* ViewController.swift in Sources */,
+				E7B9E1F62486912B00A18B39 /* Crewer.swift in Sources */,
 				E7B9E1DE2486881600A18B39 /* AppDelegate.swift in Sources */,
-				E7B9E1F2248689A300A18B39 /* Crew.swift in Sources */,
+				E7B9E1F2248689A300A18B39 /* Player.swift in Sources */,
 				E7B9E1E02486881600A18B39 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

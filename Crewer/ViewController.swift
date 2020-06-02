@@ -8,12 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    private lazy var game = Crewer()
+    
+    @IBOutlet var players: [UITableView]!
+    @IBAction func mixPlayers(_ sender: UIButton) {
+        //shuffle players and set crew number for everyone
     }
-
-
+    
+    
 }
 
