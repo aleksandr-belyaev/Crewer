@@ -10,7 +10,7 @@ import Foundation
 
 struct Crewer
 {
-    private(set) var players = [Player]()
+    var players = [Player]()
     
     mutating func addPlayer(name: String) {
         var player = Player()

@@ -19,13 +19,19 @@
                                 <rect key="frame" x="20" y="148" width="374" height="148"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abw-Up-sXK">
-                                <rect key="frame" x="168.5" y="740" width="77" height="30"/>
-                                <state key="normal" title="Собраться"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abw-Up-sXK">
+                                <rect key="frame" x="20" y="740" width="375" height="50"/>
+                                <state key="normal" title="Some shit"/>
                                 <connections>
-                                    <action selector="mixPlayers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YER-AG-c1D"/>
+                                    <action selector="addPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rgk-Dd-ccg"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hh2-MH-TCf">
+                                <rect key="frame" x="20" y="659" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -39,6 +45,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="newPlayer" destination="hh2-MH-TCf" id="9kH-Wm-6hR"/>
                         <outletCollection property="players" destination="Y43-TE-BJj" collectionClass="NSMutableArray" id="lKO-8O-VYB"/>
                     </connections>
                 </viewController>

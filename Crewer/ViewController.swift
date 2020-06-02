@@ -13,11 +13,18 @@ class ViewController: UIViewController
 
     private lazy var game = Crewer()
     
-    @IBOutlet var players: [UITableView]!
-    @IBAction func mixPlayers(_ sender: UIButton) {
-        //shuffle players and set crew number for everyone
+    @IBOutlet weak var newPlayer: UITextField!
+    @IBOutlet var players: UITableView!
+    
+    var videos: [String] = ["jopa", "ruchka"]
+    
+    @IBAction func addPlayer(_ sender: UIButton) {
+        
     }
     
+    override func viewDidLoad() {
+        self.viewDidLoad()
+        players.tableFooterView = UIView(frame: CGRect.zero)
+    }
     
 }
-
